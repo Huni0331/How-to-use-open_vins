@@ -18,6 +18,9 @@ You must run the ```source devel/setup.bash``` before starting the program on a 
 ## catkin_ws_ov : Error
 - not yet
 
+### catkin_ws_ov : Dataset tx, ty, .. 뒤에 pr같은거 버리는방법
+런처파일 맨밑에 evel쪽 잘 살펴보세용
+
 ***
 
 # catkin_stereo
@@ -45,6 +48,7 @@ And edit output_path: "The_path_you_want"
 Invalid roslaunch XML syntax: \[Errno 2] No such file or directory: u'vins_rviz.launch'
 The traceback for the exception was written to the log file   
 -> 런치파일 맨밑 주소 홈부터 : ```home/.../.../vins_rviz.launch```
+
 
 
 
